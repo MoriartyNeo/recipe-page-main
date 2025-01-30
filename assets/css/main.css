@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Outfit-VariableFont_wght";
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "YoungSerif-Regular";
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vh;
+    min-height: 100%;
+    background-color: hsl(330, 100%, 98%);
+    margin: 0 auto;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-family: "YoungSerif-Regular";
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    font-size: 38px;
+}
+
+h3, li {
+    font-family: "Outfit-VariableFont_wght";
+    color: hsl(14, 45%, 36%);
+}
+
+.p_text, p {
+    font-family: "Outfit-VariableFont_wght";
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.container {
+    padding: 30px;
+    width: 700px;
+    height: 1600px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    margin: 50px 0 50px;
+
+}
+
+.image_omelette { 
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title_content {
+    
+}
+
+.prep_subtitle {
+   color: hsl(332, 51%, 32%); 
+}
+
+.prep_time {
+    background-color: hsl(330, 100%, 98%);
+}
+
+.instruction_content {
+
+}
+
+.bold_text {
+    font-weight: 900;
+    color: hsl(30, 10%, 34%);
+}
+/*
+.nutrition_content {
+
+}
+*/
+
+.purple_text {
+    color: hsl(14, 45%, 36%);
+    font-family: "YoungSerif-Regular";
+    font-weight: 600;
+}
+
