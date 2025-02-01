@@ -58,7 +58,10 @@ h3, li {
 }
 
 .prep_subtitle {
-   color: hsl(332, 51%, 32%); 
+    padding-left: 10px;
+    padding-bottom: 40px;
+    color: hsl(332, 51%, 32%);
+    border-radius: 20px;
 }
 
 .prep_time {
@@ -70,7 +73,7 @@ h3, li {
 }
 
 .bold_text {
-    font-weight: 900;
+    font-weight: 700;
     color: hsl(30, 10%, 34%);
 }
 /*
@@ -81,7 +84,7 @@ h3, li {
 
 .purple_text {
     color: hsl(14, 45%, 36%);
-    font-family: "YoungSerif-Regular";
+    font-family: "Outfit-VariableFont_wght";
     font-weight: 600;
 }
 
