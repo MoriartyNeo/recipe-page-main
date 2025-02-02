@@ -16,7 +16,7 @@ body {
     min-height: 100%;
     background-color: hsl(330, 100%, 98%);
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .container {
@@ -26,7 +26,6 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 30px;
     margin: 50px 0 50px;
-    max-width: 55rem;
 }
 
 h1 {
@@ -61,6 +60,7 @@ li {
 
 .image_omelette { 
     width: 100%;
+    height: auto;
     border-radius: 15px;
 }
 
@@ -73,7 +73,7 @@ li {
 .prep_time {
     background-color: hsl(330, 100%, 98%);
     width: 680px;
-    height: 180px;
+    height: 185px;
     border-radius: 10px;
     padding-left: 20px;
 }
@@ -93,8 +93,6 @@ hr {
     opacity: 0.4;
     background-color: hsl(30, 10%, 34%);
 }
-
-
 
 td {
     font-family: "Outfit-VariableFont_wght";
