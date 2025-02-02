@@ -26,6 +26,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 30px;
     margin: 50px 0 50px;
+    max-width: 55rem;
 }
 
 h1 {
@@ -71,7 +72,7 @@ li {
 
 .prep_time {
     background-color: hsl(330, 100%, 98%);
-    width: 700px;
+    width: 680px;
     height: 180px;
     border-radius: 10px;
     padding-left: 20px;
@@ -108,7 +109,7 @@ td {
 .table_hr {
     height: 1px;
     background-color: hsl(30, 10%, 34%);
-    width: 700px;
+    width: 696px;
     opacity: 0.2;
 }
 
